@@ -4,6 +4,7 @@
 // @version      v0.0.1
 // @description  The simple tool filtering websites.
 // @author       PenguinCabinet
+// @license      MIT
 // @match        http://*/*
 // @match        https://*/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
