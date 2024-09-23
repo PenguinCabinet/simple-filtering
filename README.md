@@ -10,7 +10,7 @@
 </div>
 
 ## ⬇️ インストール
-[greasyfork]()のページからインストールしてください。    
+[greasyfork](https://greasyfork.org/ja/scripts/509744-simple-filtering)のページからインストールしてください。    
 Tampermonkeyなどのユーザースクリプト実行アドオンが別途必要です。    
 
 
