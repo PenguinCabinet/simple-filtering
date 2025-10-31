@@ -15,8 +15,8 @@ Tampermonkeyなどのユーザースクリプト実行アドオンが別途必�
 
 
 ## 🔨 使い方
-* CONFIGにある`URL_blacklist`にフィルタリングしたいURLをいれてください
-* CONFIGにある`Keyword_blacklist`にフィルタリングしたいキーワードをいれてください
+* CONFIGにある`URL_denylist`にフィルタリングしたいURLをいれてください
+* CONFIGにある`Keyword_denylist`にフィルタリングしたいキーワードをいれてください
 * フィルタリングの条件に合致すると、[example.com](https://example.com)にリダイレクトされます
 
 

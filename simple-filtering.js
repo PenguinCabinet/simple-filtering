@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         simple-filtering
 // @namespace    https://github.com/PenguinCabinet
-// @version      v0.0.1
+// @version      v0.0.2
 // @description  The simple tool filtering websites.
 // @author       PenguinCabinet
 // @license      MIT
@@ -12,10 +12,10 @@
 // ==/UserScript==
 
 //CONFIG
-let URL_blacklist = [
+let URL_denylist = [
 
 ];
-let Keyword_blacklist = [
+let Keyword_denylist = [
 
 ];
 //CONFIG
@@ -28,12 +28,12 @@ function block_redirect() {
 }
 
 (function () {
-    URL_blacklist.forEach(function (e) {
+    URL_denylist.forEach(function (e) {
         if (location.href.includes(e))
             block_redirect();
     });
 
-    Keyword_blacklist.forEach(function (e) {
+    Keyword_denylist.forEach(function (e) {
         if (document.body.textContent.includes(e))
             block_redirect();
     });
